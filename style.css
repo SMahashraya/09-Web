@@ -7,7 +7,7 @@ body {
   background-color: #06c2ac;
   padding: 16px 18px;
   overflow: hidden;
-  font-size: 40px;
+  font-size: 35px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
@@ -37,16 +37,16 @@ li {
 }
 
 .card {
-  width: 40rem;
+  width: 50rem;
   margin: 20px;
   background-color: white;
   text-align: left;
   padding: 14px 16px;
-  font-size: 15px;
+  font-size: 18px;
   color: #6E6A6A
   }
 .card.img {
-  width: 80%;
+  width: 100%;
   object-fit: cover;
   object-position: left;
 }
