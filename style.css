@@ -36,25 +36,29 @@ li {
   left:0;
 }
 
-.card {
-  width: 50rem;
-  margin: 20px;
-  background-color: white;
-  text-align: left;
-  padding: 14px 16px;
-  font-size: 18px;
-  color: #6E6A6A
-  }
-.card.img {
+.container {
+  display: block;
   width: 100%;
-  object-fit: cover;
-  object-position: left;
 }
+
+
+.container-fluid {
+  display: block;
+  width: 100%;
+}
+
+hr {
+  border-color: lightgrey;
+  border-style: solid none;
+  border-width: .5px 0;
+  margin: 20px;
+}
+
 h1 {
   color: #06c2ac;
   padding: 14px 16px;
   overflow: hidden;
-  font-size: 30px;
+  font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
